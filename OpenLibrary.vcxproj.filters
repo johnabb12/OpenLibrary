@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="D3D11">
+      <UniqueIdentifier>{891b2365-064f-4eac-b44f-1481cb602248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{0443bf14-4b0e-422d-b4c8-91a1bb2e51dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Openlibrary">
+      <UniqueIdentifier>{41f3ba45-84ea-4588-b2a9-149af8bda6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fonts texture &amp; images">
+      <UniqueIdentifier>{cdb31ff0-ceba-4ab4-b4ec-d80e9287c1c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenLibraryApi">
+      <UniqueIdentifier>{fca332f8-738c-42e7-8c10-e513f93b5767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main function">
+      <UniqueIdentifier>{cf74b1d0-66ae-4883-8328-0dedb449427d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ext\imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Openlibrary.cpp">
+      <Filter>Openlibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenlibraryAPI.cpp">
+      <Filter>OpenLibraryApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>main function</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ext\imgui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Openlibrary.h">
+      <Filter>Openlibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\d3d11\d3dx11.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\d3d11\d3dx11async.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\d3d11\d3dx11core.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\d3d11\d3dx11tex.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="textures.h">
+      <Filter>fonts texture &amp; images</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.h">
+      <Filter>fonts texture &amp; images</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenlibraryAPI.h">
+      <Filter>OpenLibraryApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Source.h">
+      <Filter>main function</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
